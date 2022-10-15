@@ -14,8 +14,6 @@
     compatible = "arble";
 
     chosen {
-
-        zephyr,display = &oled;
         zephyr,code-partition = &code_partition;
         zephyr,sram = &sram0;
         zephyr,flash = &flash0;
