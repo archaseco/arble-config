@@ -167,23 +167,6 @@
 		color-mapping = <LED_COLOR_ID_GREEN LED_COLOR_ID_RED LED_COLOR_ID_BLUE>;
     };
 
-    oled: ssd1306@0 {
-		compatible = "solomon,ssd1306fb";
-		reg = <0x3c>;
-		label = "DISPLAY";
-		width = <128>;
-		height = <32>;
-		segment-offset = <0>;
-		page-offset = <0>;
-		display-offset = <0>;
-		multiplex-ratio = <31>;
-		segment-remap;
-		com-invdir;
-		com-sequential;
-		prechargep = <0x22>;
-		data_cmd-gpios = <&gpiob 9 GPIO_ACTIVE_HIGH>;
-	};
-
 };
 
 &usbd {
