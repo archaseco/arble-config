@@ -181,7 +181,7 @@
 		com-invdir;
 		com-sequential;
 		prechargep = <0x22>;
-		<&gpiob 9 GPIO_ACTIVE_HIGH>;
+		data_cmd-gpios = <&gpiob 9 GPIO_ACTIVE_HIGH>;
 	};
 
 };
