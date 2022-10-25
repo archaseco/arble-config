@@ -63,7 +63,7 @@
         &kp C_BRI_UP  &bootloader   &trans    &kp UP   &trans    &trans   &trans    &trans   &out OUT_USB      &trans   &trans    &trans   &kp UP   &trans   &trans
         &kp C_BRI_DN  &trans   &kp LEFT  &kp DOWN &kp RIGHT &trans    &trans   &kp LEFT  &kp DOWN &kp UP   &kp RIGHT   &kp LEFT   &kp RIGHT    &rgb_ug RGB_TOG 
                       &trans   &trans    &trans   &trans    &trans   &out OUT_BLE    &trans   &trans    &trans   &trans    &trans    &kp DOWN  &trans   &trans
-                      &bt BT_CLR   &trans    &rgb_ug RGB_TOG    &trans   &trans    &trans   &trans
+                      &bt BT_CLR   &trans    &rgb_ug RGB_TOG    &trans   &trans    &trans   &trans 
       >;
     };
   };
